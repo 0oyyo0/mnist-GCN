@@ -1,0 +1,2 @@
+*.npy
+docker run --gpus all -it --shm-size=8gb --volume="/home/yy/test:/home/test:rw" ubuntu
